@@ -1,0 +1,50 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+!*.meta
+*.log
+*.pyc
+*.unitypackage
+*.gif
+*.xlsx
+*.docx
+*.doc
+*.xls
+
+#--以下はUnityで設定しておく除外リストの一覧
+
+#-- unity generated
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+
+#vs generated
+[Ee]xported[Oo]bj/
+.vs/
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+.idea*/
+
+#os generated
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+
+#除外するフォルダの設定
+[Ii]gnore/
+[Ii]gnore.meta
+[Pp]roto/
+
+!*.obj
+BuildGame/
